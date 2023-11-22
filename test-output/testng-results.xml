@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-09T11:03:50 IST" name="Default suite" finished-at="2023-11-09T11:03:50 IST" duration-ms="34">
+    <groups>
+    </groups>
+    <test started-at="2023-11-09T11:03:50 IST" name="Default test" finished-at="2023-11-09T11:03:50 IST" duration-ms="34">
+      <class name="practice.ReadDataFromCmdLine">
+        <test-method signature="read()[pri:0, instance:practice.ReadDataFromCmdLine@3bb9a3ff]" started-at="2023-11-09T11:03:50 IST" name="read" finished-at="2023-11-09T11:03:50 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+      </class> <!-- practice.ReadDataFromCmdLine -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -2,7 +2,9 @@ package practice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -28,6 +30,9 @@ public class Sceneario3 {
 	//Create Organization with Mandatory fields
 		driver.findElement(By.name("accountname"));
 	//	Select "Chemicals" in the industry drop down
+		WebElement Industry = driver.findElement(By.name("industry"));
+		Select select=new Select(Industry);
+		select.selectByVisibleText("Chemicals");
 	//Save and Verify
 //	logout of Application
 	}
